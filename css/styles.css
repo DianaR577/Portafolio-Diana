@@ -74,7 +74,7 @@
 #hero{
     width: 100%;
     height: 98vh;
-    padding-top: 200px;
+    padding-top: 150px;
 }
 
 #hero .decoracion{
@@ -86,7 +86,6 @@
 }
 
 .redes{
-    width: 100%;
     height: 100%;
     display: inline-block;
     padding-top: 40px;
@@ -100,11 +99,11 @@
     margin-top: 45px;
 }
 
-.foto{
-    background-color: gray;
+.foto img{
+    margin-left: 15px;  
     border-radius: 5%;
-    width: 80%;
-    height: 550px;
+    width: 75%;
+    height: 700px;
 }
 
 #hero .contder{
@@ -314,8 +313,8 @@ nav .row{
     .redes img{
         display:inline-block;
         margin-top: 0px;
-        margin-left: 15px;
-        margin-right: 15px;
+        margin-left: 10px;
+        margin-right: 10px;
     }
 
     #hero .contder{
@@ -335,10 +334,14 @@ nav .row{
         margin: 0px 15px 15px;
     }
 
-    .foto{
-        width: 90%;
-        height: 350px;
-        margin-left: 18px
+    .foto img{
+        width: 78%;
+        height: 450px;
+        margin-left: 30px
+    }
+
+    .row{
+        --bs-gutter-x: 0;
     }
 
     .redi{
@@ -364,4 +367,65 @@ nav .row{
         width: 95%;
         margin: 10px 10px 0;
     }
+    
+    #hero2 .habi img{
+        margin: 0;
+        padding: 25px;
+    }
+
+    #hero2{
+        padding-top: 50px;
+        height: 140vh;
+    }
+
+    #texto-p{
+        text-align: center;
+        padding: 25px 25px 0;
+    }
+
+    #hero2 .leng .borde-leng{
+        width: 50%;
+        margin-left: 0px;
+    }
+
+    #hero2 .pp img{
+        width: 320px;
+        height: 240px;
+    }
+
+    #hero2 .dec3{
+        width: 45%;
+        margin: 10px 100px 0;
+    }
+
+    #hero2 .dec3 {
+        width: 45%;
+        margin: 10px 100px 0;
+    }
+
+    #hero2 .titulo-ed{
+        width: 100%;
+        margin-top: 0px;
+        margin-bottom: 30px;
+    }
+
+    #hero2 .img-ed img{
+        margin-top: 60px;
+        margin-bottom: 60px;
+        width: 150px;
+        height: 150px;
+        margin-left: 110px;
+    }
+
+    .btn-footer{
+        padding-top: 30px;
+        padding-bottom: 40px;   
+    }
+
+    .btn-footer a button{
+        padding-left: 15px;
+        padding-right: 15px;
+        margin: 0;
+    }
+
 }
