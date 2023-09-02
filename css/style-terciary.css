@@ -75,7 +75,7 @@
 #hero{
     width: 100%;
     height: 98vh;
-    padding-top: 200px;
+    padding-top: 150px;
 }
 
 #hero .decoracion{
@@ -87,7 +87,6 @@
 }
 
 .redes{
-    width: 100%;
     height: 100%;
     display: inline-block;
     padding-top: 40px;
@@ -101,15 +100,15 @@
     margin-top: 45px;
 }
 
-.foto{
-    background-color: gray;
+.foto img{
+    margin-left: 15px;  
     border-radius: 5%;
-    width: 80%;
-    height: 550px;
+    width: 75%;
+    height: 700px;
 }
 
 #hero .contder{
-    padding-right: 220px;
+    padding-right: 215px;
 }
 
 .secciones{
@@ -306,9 +305,128 @@ nav .row{
 
 /*Responsive*/
 /*Margen*/
-@media screen and (min-width: 320px) and (max-width: 580px){
+@media screen and (min-width: 320px) and (max-width: 844px){
+
+    #hero{
+       padding-top: 0px;
+    }
+
+    .redes img{
+        display:inline-block;
+        margin-top: 0px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    #hero .contder{
+        padding-right: 20px;
+        padding-left: 20px;
+    }
 
     #hero .contder h1{
         text-align: center;
     }
+
+    #hero .contder h4{
+        text-align: center;
+    }
+
+    #hero .decoracion{
+        margin: 0px 15px 15px;
+    }
+
+    .foto img{
+        width: 78%;
+        height: 450px;
+        margin-left: 30px
+    }
+
+    .row{
+        --bs-gutter-x: 0;
+    }
+
+    .redi{
+        width: 80%;
+    }
+
+    .dec2{
+        margin-top: 10px;
+        margin-left: 70px;
+    }
+
+    .dec2 p{
+        float: none;
+        padding-left: 35px;
+        padding-right: 0;
+    }
+
+    #hero2 .titulo{
+        height: 16vh;
+    }
+
+    #hero2 .dec1 {
+        width: 95%;
+        margin: 10px 10px 0;
+    }
+    
+    #hero2 .habi img{
+        margin: 0;
+        padding: 25px;
+    }
+
+    #hero2{
+        padding-top: 50px;
+        height: 140vh;
+    }
+
+    #texto-p{
+        text-align: center;
+        padding: 25px 25px 0;
+    }
+
+    #hero2 .leng .borde-leng{
+        width: 50%;
+        margin-left: 0px;
+    }
+
+    #hero2 .pp img{
+        width: 320px;
+        height: 240px;
+    }
+
+    #hero2 .dec3{
+        width: 45%;
+        margin: 10px 100px 0;
+    }
+
+    #hero2 .dec3 {
+        width: 45%;
+        margin: 10px 100px 0;
+    }
+
+    #hero2 .titulo-ed{
+        width: 100%;
+        margin-top: 0px;
+        margin-bottom: 30px;
+    }
+
+    #hero2 .img-ed img{
+        margin-top: 60px;
+        margin-bottom: 60px;
+        width: 150px;
+        height: 150px;
+        margin-left: 110px;
+    }
+
+    .btn-footer{
+        padding-top: 30px;
+        padding-bottom: 40px;   
+    }
+
+    .btn-footer a button{
+        padding-left: 15px;
+        padding-right: 15px;
+        margin: 0;
+    }
+
 }
